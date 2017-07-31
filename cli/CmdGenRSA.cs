@@ -105,8 +105,8 @@ namespace OpenSSL.CLI
 				enc = Cipher.DES_CBC;
 			else if (options.IsSet("des3"))
 				enc = Cipher.DES_EDE3_CBC;
-			else if (options.IsSet("idea"))
-				enc = Cipher.Idea_CBC;
+			//else if (options.IsSet("idea"))
+			//	enc = Cipher.Idea_CBC;
 			else if (options.IsSet("aes128"))
 				enc = Cipher.AES_128_CBC;
 			else if (options.IsSet("aes192"))
