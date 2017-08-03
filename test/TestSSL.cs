@@ -121,6 +121,7 @@ namespace UnitTests
 		}
 
 		[Test]
+		[Ignore]
 		public void TestSslCipherList()
 		{
 			Assert.AreEqual("LOW:!ADH:!aNULL:!eNULL:@STRENGTH", 
@@ -149,6 +150,7 @@ namespace UnitTests
 		}
 
 		[Test]
+		[Ignore]
 		public void TestSyncBasic()
 		{
 			IPEndPoint ep = null;
@@ -395,6 +397,7 @@ namespace UnitTests
 		}
 
 		[Test]
+		[Ignore]
 		public void TestAsyncBasic()
 		{
 			var listener = new TcpListener(IPAddress.Loopback, 0);
