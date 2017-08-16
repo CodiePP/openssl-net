@@ -193,6 +193,36 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\native\linux\libssl.linux.1.0.2.so">
+      <Link>libssl.linux.1.0.2.so</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\native\linux\libcrypto.linux.1.0.2.so">
+      <Link>libcrypto.linux.1.0.2.so</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\native\freebsd\libssl.freebsd.1.0.2.so">
+      <Link>libssl.freebsd.1.0.2.so</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\native\freebsd\libcrypto.freebsd.1.0.2.so">
+      <Link>libcrypto.freebsd.1.0.2.so</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\native\osx\libssl.osx.1.0.2.dylib">
+      <Link>libssl.osx.1.0.2.dylib</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\native\osx\libcrypto.osx.1.0.2.dylib">
+      <Link>libcrypto.osx.1.0.2.dylib</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
