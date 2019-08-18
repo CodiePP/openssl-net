@@ -13,3 +13,6 @@ dist
 test-results
 TestResult.xml
 test/openssl.net.VisualState.xml
+
+ManagedOpenSsl/openssl-net.snk
+packages/
